@@ -3,6 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>NSCameraReactionEffectGesturesEnabledDefault</key>
-	<false/>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
